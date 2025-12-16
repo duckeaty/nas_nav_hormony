@@ -14,6 +14,8 @@ NAS导航（鸿蒙HAP应用）
 
 3、侧滑返回上一页
 
+4、横屏时不能下拉刷新，在emby播放时可以左右两边上下滑动调节亮度和音量（使用Custom Css and JavaScript插件，代码见:滑动手势.txt）
+
 
 ![screenshot_20251217_013713 1](https://github.com/user-attachments/assets/bcb1fc13-f626-4874-8a33-959512e3c518)
 
