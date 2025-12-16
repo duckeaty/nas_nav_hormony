@@ -14,5 +14,7 @@ NAS导航（鸿蒙HAP应用）
 
 
 ![screenshot_20251217_013713 1](https://github.com/user-attachments/assets/bcb1fc13-f626-4874-8a33-959512e3c518)
+
 ![screenshot_20251217_013720 1](https://github.com/user-attachments/assets/6b24c7c4-2d3c-452d-9168-ba0f50ca0689)
-![screenshot_20251217_013726 1](https://github.com/user-attachments/assets/6ae5b82a-b5ec-4398-87a0-13314eaffacd)
+
+![screenshot_20251217_014822 1](https://github.com/user-attachments/assets/4c80f2e4-a4bb-487a-a0cd-a4524a7c701f)
