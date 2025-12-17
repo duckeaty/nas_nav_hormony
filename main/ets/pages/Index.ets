@@ -17,6 +17,8 @@ struct Index {
   @State showRefreshRow: boolean = true
   @State showButtonRow: boolean = true
   @State refreshTimerId: number | null = null;
+  @State isLandscape:boolean = false;
+  @State isdrag:number = 1
 
   async aboutToAppear() {
     this.saved_home_url = await getHomeUrl()||this.saved_home_url;
@@ -124,8 +126,30 @@ struct Index {
         .height("100%")
       }
     }
+    .pullDownRatio(this.isdrag)
     .backgroundColor(Color.Pink)
     .onRefreshing(() => this.onRefreshing())
+    .onSizeChange(() => {
+      window.getLastWindow(this.getUIContext().getHostContext(), (err, win) => {
+        let cutOutInfo = win.getWindowAvoidArea(window.AvoidAreaType.TYPE_SYSTEM_GESTURE)
+        if (window.Orientation.AUTO_ROTATION) {
+          let rotation: number = display.getDefaultDisplaySync().orientation // Get current screen orientation enum value
+          if (rotation == 0) {
+            this.isLandscape = false;
+            this.isdrag = 1;
+          } else if (rotation == 1) {
+            this.isLandscape = true;
+            this.isdrag = 0;
+          } else if (rotation == 2) {
+            this.isLandscape = false;
+            this.isdrag = 1;
+          } else {
+            this.isLandscape = true;
+            this.isdrag = 0;
+          }
+        }
+      })
+    })
 
   }
   onBackPress() {
