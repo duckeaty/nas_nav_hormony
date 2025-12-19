@@ -2,6 +2,9 @@ NAS导航（鸿蒙HAP应用）
 # nas_nav_hormony
 鸿蒙网页封装，把网页当独立应用使用。
 
+邀请测试：
+https://appgallery.huawei.com/link/invite-test-wap?taskId=b1a00be9892d48ed9ee7b3a92536e520&invitationCode=6nG7Wka1Iis
+
 极简，速度快，适合用于sun-pannel,emby之类的网页应用。比原生浏览器流畅，全屏没有按钮，可当成APP来使用。
 
 安装：用小白安装
