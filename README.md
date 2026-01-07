@@ -4,7 +4,7 @@ NAS导航（鸿蒙HAP应用）
 
 用下面邀请测试安装，源码和Release还没更新
 邀请测试：
-https://appgallery.huawei.com/link/invite-test-wap?taskId=b1a00be9892d48ed9ee7b3a92536e520&invitationCode=6nG7Wka1Iis
+https://appgallery.huawei.com/link/invite-test-wap?taskId=46c11076329bf2ac5f8a603c6fcbdc19&invitationCode=6UjlhVI0EtF
 
 极简，速度快，适合用于sun-pannel,emby之类的网页应用。比原生浏览器流畅，全屏没有按钮，可当成APP来使用。
 
