@@ -12,17 +12,19 @@ https://appgallery.huawei.com/link/invite-test-wap?taskId=46c11076329bf2ac5f8a60
 
 使用说明：
 
-1、默认主页为baidu,下拉点*，填写主页地址，点保存即可。
+1、下拉点设置按钮，填写主页地址，点保存即可。
 
-2、下拉默认为刷新及功能按钮（3秒缩回），只有清除缓存和返回主页功能。
+2、下拉默认为刷新及功能按钮（3秒缩回）。
 
 3、侧滑返回上一页
 
-4、横屏时不能下拉刷新，在emby播放时可以左右两边上下滑动调节亮度和音量（使用Custom Css and JavaScript插件，代码见:emby滑动手势.txt）
+4、可设置横屏时不能下拉刷新：在emby播放时可以左右两边上下滑动调节亮度和音量（使用Custom Css and JavaScript插件，代码见:emby滑动手势.txt）
+
+5、其它的自行摸索
 
 
-![screenshot_20251217_013713 1](https://github.com/user-attachments/assets/bcb1fc13-f626-4874-8a33-959512e3c518)
+![screenshot_20260108_024309](https://github.com/user-attachments/assets/e68609c6-f6aa-4fe3-b3cf-af557d0b2f53)
 
-![screenshot_20251217_013720 1](https://github.com/user-attachments/assets/6b24c7c4-2d3c-452d-9168-ba0f50ca0689)
+![screenshot_20260108_024313](https://github.com/user-attachments/assets/664fadef-7fe8-468c-a357-4613923ba68f)
 
-![screenshot_20251217_014822 1](https://github.com/user-attachments/assets/4c80f2e4-a4bb-487a-a0cd-a4524a7c701f)
+![screenshot_20260108_024323](https://github.com/user-attachments/assets/b3e616f2-aaec-4c98-b166-3f41119c65b8)
